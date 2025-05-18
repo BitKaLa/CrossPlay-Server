@@ -103,3 +103,60 @@
 [02:38:35] [Async Chat Thread - #3/INFO]: [Not Secure] <Dangerous3945> todo nice
 [02:38:45] [Async Chat Thread - #3/INFO]: [Not Secure] <Dangerous3945> pero lo hare de nuevo por que hice unos cambios
 [02:38:48] [Async Chat Thread - #2/INFO]: [Not Secure] <.Mimi12Xml> entonces
+[02:38:54] [Async Chat Thread - #3/INFO]: [Not Secure] <.Mimi12Xml> bueno ya ayude
+[02:39:05] [Async Chat Thread - #3/INFO]: [Not Secure] <Dangerous3945> y en java no me vas a ayudar?
+[02:39:16] [Async Chat Thread - #3/INFO]: [Not Secure] <.Mimi12Xml> ahora no puedo sacar la lap
+[02:39:25] [Async Chat Thread - #3/INFO]: [Not Secure] <Dangerous3945> esta bien
+[02:39:28] [Async Chat Thread - #3/INFO]: [Not Secure] <.Mimi12Xml> estoy comiendo y tengo weba
+[02:39:34] [Async Chat Thread - #3/INFO]: [Not Secure] <Dangerous3945> ponte al lado de aquel pendejo para tomar captura
+[02:39:46] [Async Chat Thread - #2/INFO]: [Not Secure] <.Mimi12Xml> mañana si porque instalare fornait
+[02:39:55] [Async Chat Thread - #2/INFO]: [Not Secure] <Dangerous3945> chica gamer?
+[02:40:16] [Async Chat Thread - #2/INFO]: [Not Secure] <.Mimi12Xml> mas o menos
+[02:40:28] [Async Chat Thread - #3/INFO]: [Not Secure] <Taka_la> ya
+[02:40:32] [Async Chat Thread - #3/INFO]: [Not Secure] <Taka_la> ahi te la mando
+[02:40:33] [Async Chat Thread - #3/INFO]: [Not Secure] <.Mimi12Xml> oks
+[02:40:38] [Async Chat Thread - #2/INFO]: [Not Secure] <Taka_la> dale pues
+[02:40:45] [Async Chat Thread - #2/INFO]: [Not Secure] <Taka_la> ya puedes salir
+[02:40:46] [Async Chat Thread - #2/INFO]: [Not Secure] <.Mimi12Xml> hay te ayudo mañana
+[02:40:51] [Async Chat Thread - #2/INFO]: [Not Secure] <Taka_la> dale dale
+[02:40:58] [Server thread/INFO]: Taka_la issued server command: /time set dasy
+[02:41:00] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Mimi12Xml has disconnected from the Java server because of Bedrock client timed out
+[02:41:00] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .Mimi12Xml disconnected
+[02:41:00] [Server thread/INFO]: .Mimi12Xml lost connection: Disconnected
+[02:41:00] [Server thread/INFO]: .Mimi12Xml left the game
+[02:41:02] [Server thread/INFO]: Taka_la issued server command: /time set day
+[02:41:02] [Server thread/INFO]: [Taka_la: Set the time to 1000]
+[02:41:11] [Server thread/INFO]: Taka_la lost connection: Disconnected
+[02:41:11] [Server thread/INFO]: Taka_la left the game
+[02:41:18] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Dangerous3945 has disconnected from the Java server because of Bedrock client timed out
+[02:41:18] [Server thread/INFO]: Dangerous3945 lost connection: Disconnected
+[02:41:18] [Server thread/INFO]: Dangerous3945 left the game
+[02:42:21] [Server thread/INFO]: Stopping server
+[02:42:21] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
+[02:42:21] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[02:42:21] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[02:42:21] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[02:42:21] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[02:42:21] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[02:42:21] [Server thread/INFO]: Saving players
+[02:42:21] [WebSocketConnectReadThread-85/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[02:42:22] [Server thread/INFO]: Saving worlds
+[02:42:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:42:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[02:42:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[02:42:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[02:42:22] [Server thread/INFO]: [ChunkHolderManager] Saved 94 block chunks, 111 entity chunks, 0 poi chunks in world 'world' in 0.23s
+[02:42:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[02:42:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[02:42:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[02:42:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[02:42:22] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[02:42:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[02:42:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[02:42:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[02:42:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[02:42:22] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[02:42:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:42:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:42:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:42:22] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
