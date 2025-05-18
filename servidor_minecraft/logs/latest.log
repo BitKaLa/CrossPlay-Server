@@ -80,3 +80,35 @@
 [18:08:34] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Dangerous3945 has disconnected from the Java server because of Bedrock client timed out
 [18:08:34] [Server thread/INFO]: .Dangerous3945 lost connection: Disconnected
 [18:08:34] [Server thread/INFO]: .Dangerous3945 left the game
+[18:17:41] [Server thread/INFO]: Taka_la issued server command: /gamemode creative .Dangerous3945
+[18:18:23] [Server thread/INFO]: Stopping server
+[18:18:23] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
+[18:18:23] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[18:18:23] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[18:18:23] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[18:18:23] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[18:18:23] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[18:18:23] [Server thread/INFO]: Saving players
+[18:18:23] [Server thread/INFO]: Taka_la lost connection: Server closed
+[18:18:23] [Server thread/INFO]: Taka_la left the game
+[18:18:24] [WebSocketConnectReadThread-86/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[18:18:24] [Server thread/INFO]: Saving worlds
+[18:18:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:18:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:18:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:18:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:18:24] [Server thread/INFO]: [ChunkHolderManager] Saved 23 block chunks, 103 entity chunks, 0 poi chunks in world 'world' in 0.11s
+[18:18:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:18:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:18:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:18:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:18:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[18:18:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:18:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:18:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:18:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:18:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[18:18:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:18:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:18:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:18:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
