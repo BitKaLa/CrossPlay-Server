@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "0f21aac0-d49b-328e-90fe-0ebada7e3968",
+    "name": "Taka_la",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
