@@ -1,235 +1,123 @@
-[04:30:47] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[04:30:47] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[04:30:47] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[04:30:49] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[04:30:49] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+[04:44:15] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
+[04:44:15] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[04:44:15] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[04:44:16] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[04:44:16] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
  - Geyser-Spigot (2.7.1-SNAPSHOT), ViaVersion (5.3.2), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
-[04:30:56] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[04:30:58] [ServerMain/INFO]: Loaded 1290 recipes
-[04:30:59] [ServerMain/INFO]: Loaded 1399 advancements
-[04:30:59] [Server thread/INFO]: Starting minecraft server version 1.21
-[04:30:59] [Server thread/INFO]: Loading properties
-[04:30:59] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[04:31:00] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[04:31:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[04:31:00] [Server thread/INFO]: Using 4 threads for Netty based IO
-[04:31:02] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[04:31:02] [Server thread/INFO]: Default game type: SURVIVAL
-[04:31:02] [Server thread/INFO]: Generating keypair
-[04:31:02] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:31:02] [Server thread/INFO]: Using epoll channel type
-[04:31:02] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[04:31:02] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[04:31:04] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[04:31:07] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[04:31:08] [Server thread/INFO]: [floodgate] Took 3,213ms to boot Floodgate
-[04:31:08] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
-[04:31:08] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
-[04:31:10] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[04:31:10] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[04:31:12] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
-[04:31:14] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[04:31:14] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[04:31:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[04:31:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:31:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:31:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04:31:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:31:15] [Server thread/INFO]: Preparing level "world"
-[04:31:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[04:31:18] [Server thread/INFO]: Time elapsed: 2448 ms
-[04:31:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[04:31:18] [Server thread/INFO]: Time elapsed: 366 ms
-[04:31:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[04:31:18] [Server thread/INFO]: Time elapsed: 242 ms
-[04:31:18] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[04:31:20] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
-[04:31:21] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[04:31:21] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
-[04:31:22] [Server thread/INFO]: [spark] Starting background profiler...
-[04:31:23] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[04:31:23] [Server thread/INFO]: [Geyser-Spigot] 
-[04:31:23] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b833 (git-master-d0be6d9)
-[04:31:23] [Server thread/INFO]: [Geyser-Spigot] 
-[04:31:23] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[04:31:37] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 4770
-[04:31:38] [Server thread/INFO]: [Geyser-Spigot] Done (14.126s)! Run /geyser help for help!
-[04:31:38] [Server thread/INFO]: Done preparing level "world" (23.350s)
-[04:31:38] [Server thread/INFO]: Running delayed init tasks
-[04:31:38] [Server thread/INFO]: Done (52.150s)! For help, type "help"
-[04:31:38] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[04:31:38] [Server thread/INFO]: Timings Reset
-[04:32:49] [User Authenticator #0/INFO]: UUID of player Taka_la is 0f21aac0-d49b-328e-90fe-0ebada7e3968
-[04:32:51] [Server thread/INFO]: Taka_la joined the game
-[04:32:51] [Server thread/INFO]: Taka_la[/127.226.207.163:48027] logged in with entity id 101 at ([world]424.9024421090397, 71.0, -22.46006902132623)
-[04:35:39] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Dangerous3945
-[04:35:39] [localSession-7-2/INFO]: [Geyser-Spigot] Dangerous3945 (logged in as: Dangerous3945) has connected to the Java server
-[04:35:39] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Dangerous3945 joined (UUID: 00000000-0000-0000-0009-01f1f6eff097)
-[04:35:40] [Server thread/INFO]: .Dangerous3945 joined the game
-[04:35:40] [Server thread/INFO]: .Dangerous3945[/127.0.0.1:0] logged in with entity id 548 at ([world]430.5, 69.0, -11.5)
-[04:36:05] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Dangerous3945 has disconnected from the Java server because of Bedrock client timed out
-[04:36:05] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Dangerous3945 disconnected
-[04:36:05] [Server thread/INFO]: .Dangerous3945 lost connection: Disconnected
-[04:36:05] [Server thread/INFO]: .Dangerous3945 left the game
-[04:36:18] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Dangerous3945
-[04:36:18] [localSession-7-3/INFO]: [Geyser-Spigot] Dangerous3945 (logged in as: Dangerous3945) has connected to the Java server
-[04:36:19] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Dangerous3945 joined (UUID: 00000000-0000-0000-0009-01f1f6eff097)
-[04:36:19] [Server thread/INFO]: .Dangerous3945 joined the game
-[04:36:19] [Server thread/INFO]: .Dangerous3945[/127.0.0.1:0] logged in with entity id 634 at ([world]429.3, 69.0, -10.28683)
-[04:36:33] [Server thread/INFO]: Taka_la issued server command: /give @p minecraft:chicken
-[04:36:33] [Server thread/INFO]: [Taka_la: Gave 1 [Raw Chicken] to Taka_la]
-[04:37:05] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Dangerous3945 has disconnected from the Java server because of Bedrock client timed out
-[04:37:05] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .Dangerous3945 disconnected
-[04:37:05] [Server thread/INFO]: .Dangerous3945 lost connection: Disconnected
-[04:37:05] [Server thread/INFO]: .Dangerous3945 left the game
-[04:37:33] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Dangerous3945
-[04:37:33] [localSession-7-4/INFO]: [Geyser-Spigot] Dangerous3945 (logged in as: Dangerous3945) has connected to the Java server
-[04:37:33] [User Authenticator #1/INFO]: UUID of player Dangerous3945 is 1b61e3eb-c39a-3700-aa0f-1e847c01a6b0
-[04:37:33] [Server thread/INFO]: Dangerous3945 joined the game
-[04:37:33] [Server thread/INFO]: Dangerous3945[/127.0.0.1:0] logged in with entity id 783 at ([world]423.79825, 71.0, -22.440475)
-[04:37:36] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username Lynnn5389
-[04:37:36] [localSession-7-1/INFO]: [Geyser-Spigot] Lynnn5389 (logged in as: Lynnn5389) has connected to the Java server
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: java.lang.NullPointerException
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at java.base/java.lang.invoke.DirectMethodHandle.checkBase(DirectMethodHandle.java:547)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at java.base/jdk.internal.reflect.MethodHandleObjectFieldAccessorImpl.get(MethodHandleObjectFieldAccessorImpl.java:57)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at java.base/java.lang.reflect.Field.get(Field.java:444)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.addon.data.SpigotDataHandler.checkAndHandleLogin(SpigotDataHandler.java:150)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.addon.data.SpigotDataHandler.channelRead(SpigotDataHandler.java:145)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.addon.data.CommonDataHandler.channelRead(CommonDataHandler.java:178)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.channelRead(FlushConsolidationHandler.java:152)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.local.LocalChannel.readInbound(LocalChannel.java:299)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.local.LocalChannel.finishPeerRead0(LocalChannel.java:445)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.local.LocalChannel.access$400(LocalChannel.java:50)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.local.LocalChannel$5.run(LocalChannel.java:403)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:54)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-[04:37:36] [Geyser Spigot connection thread-6-2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[04:37:36] [localSession-7-1/INFO]: [Geyser-Spigot] Lynnn5389 has disconnected from the Java server because of End of stream
-[04:37:36] [Server thread/INFO]: /127.0.0.1:0 lost connection: Disconnected
-[04:37:57] [Server thread/WARN]: Dangerous3945 was kicked for floating too long!
-[04:37:57] [Server thread/INFO]: Dangerous3945 lost connection: Flying is not enabled on this server
-[04:37:57] [localSession-7-4/INFO]: [Geyser-Spigot] Dangerous3945 has disconnected from the Java server because of End of stream
-[04:37:57] [Server thread/INFO]: Dangerous3945 left the game
-[04:38:18] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Dangerous3945
-[04:38:18] [localSession-7-2/INFO]: [Geyser-Spigot] Dangerous3945 (logged in as: Dangerous3945) has connected to the Java server
-[04:38:19] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Dangerous3945 joined (UUID: 00000000-0000-0000-0009-01f1f6eff097)
-[04:38:19] [Server thread/INFO]: .Dangerous3945 joined the game
-[04:38:19] [Server thread/INFO]: .Dangerous3945[/127.0.0.1:0] logged in with entity id 868 at ([world]428.30133, 69.0, -7.1971283)
-[04:38:40] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Lynnn5389
-[04:38:40] [localSession-7-3/INFO]: [Geyser-Spigot] Lynnn5389 (logged in as: Lynnn5389) has connected to the Java server
-[04:38:40] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Lynnn5389 joined (UUID: 00000000-0000-0000-0009-01f89096288b)
-[04:38:40] [Server thread/INFO]: .Lynnn5389 joined the game
-[04:38:40] [Server thread/INFO]: .Lynnn5389[/127.0.0.1:0] logged in with entity id 916 at ([world]432.5, 69.0, -9.5)
-[04:39:07] [Async Chat Thread - #0/INFO]: [Not Secure] <Taka_la> no me ama
-[04:39:09] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Dangerous3945 has disconnected from the Java server because of Bedrock client timed out
-[04:39:09] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Dangerous3945 disconnected
-[04:39:09] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .Lynnn5389 disconnected
-[04:39:09] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Lynnn5389 has disconnected from the Java server because of Bedrock client timed out
-[04:39:09] [Server thread/INFO]: .Dangerous3945 lost connection: Disconnected
-[04:39:09] [Server thread/INFO]: .Dangerous3945 left the game
-[04:39:09] [Server thread/INFO]: .Lynnn5389 lost connection: Disconnected
-[04:39:09] [Server thread/INFO]: .Lynnn5389 left the game
-[04:39:29] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Lynnn5389
-[04:39:29] [localSession-7-4/INFO]: [Geyser-Spigot] Lynnn5389 (logged in as: Lynnn5389) has connected to the Java server
-[04:39:30] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Lynnn5389 joined (UUID: 00000000-0000-0000-0009-01f89096288b)
-[04:39:30] [Server thread/INFO]: .Lynnn5389 joined the game
-[04:39:30] [Server thread/INFO]: .Lynnn5389[/127.0.0.1:0] logged in with entity id 1005 at ([world]428.84622, 70.0, -13.442773)
-[04:39:40] [Async Chat Thread - #0/INFO]: [Not Secure] <Taka_la> la saco?
-[04:39:48] [Async Chat Thread - #1/INFO]: [Not Secure] <.Lynnn5389> si
-[04:40:05] [Server thread/INFO]: Taka_la issued server command: /time set day
-[04:40:05] [Server thread/INFO]: [Taka_la: Set the time to 1000]
-[04:40:08] [Async Chat Thread - #1/INFO]: [Not Secure] <Taka_la> me lo imagine
-[04:40:12] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Lynnn5389 has disconnected from the Java server because of Bedrock client timed out
-[04:40:12] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .Lynnn5389 disconnected
-[04:40:12] [Server thread/INFO]: .Lynnn5389 lost connection: Disconnected
-[04:40:12] [Server thread/INFO]: .Lynnn5389 left the game
-[04:40:22] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username Lynnn5389
-[04:40:22] [localSession-7-1/INFO]: [Geyser-Spigot] Lynnn5389 (logged in as: Lynnn5389) has connected to the Java server
-[04:40:23] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Lynnn5389 joined (UUID: 00000000-0000-0000-0009-01f89096288b)
-[04:40:23] [Server thread/INFO]: .Lynnn5389 joined the game
-[04:40:23] [Server thread/INFO]: .Lynnn5389[/127.0.0.1:0] logged in with entity id 1117 at ([world]416.27905, 72.0, -27.386665)
-[04:40:41] [Async Chat Thread - #1/INFO]: [Not Secure] <.Lynnn5389> saca acada rato
-[04:41:08] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .Lynnn5389 disconnected
-[04:41:08] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Lynnn5389 has disconnected from the Java server because of Bedrock client timed out
-[04:41:09] [Server thread/INFO]: .Lynnn5389 lost connection: Disconnected
-[04:41:09] [Server thread/INFO]: .Lynnn5389 left the game
-[04:41:22] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Lynnn5389
-[04:41:22] [localSession-7-2/INFO]: [Geyser-Spigot] Lynnn5389 (logged in as: Lynnn5389) has connected to the Java server
-[04:41:22] [User Authenticator #2/INFO]: UUID of player Lynnn5389 is 69f08fa3-94da-3e74-97c3-8320ee302e12
-[04:41:22] [Server thread/INFO]: Lynnn5389 joined the game
-[04:41:22] [Server thread/INFO]: Lynnn5389[/127.0.0.1:0] logged in with entity id 1208 at ([world]435.5, 68.0, -9.5)
-[04:41:45] [Async Chat Thread - #3/INFO]: [Not Secure] <Lynnn5389> igual
-[04:41:49] [Async Chat Thread - #2/INFO]: [Not Secure] <Taka_la> eso veo
-[04:41:56] [Async Chat Thread - #3/INFO]: [Not Secure] <Taka_la> dejeme lo reinicio
-[04:42:11] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Lynnn5389 has disconnected from the Java server because of Bedrock client timed out
-[04:42:11] [Server thread/INFO]: Lynnn5389 lost connection: Disconnected
-[04:42:11] [Server thread/INFO]: Lynnn5389 left the game
-[04:42:56] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[04:42:56] [Server thread/INFO]: Taka_la lost connection: Server is restarting
-[04:42:56] [Server thread/INFO]: Taka_la left the game
-[04:42:56] [Server thread/INFO]: Stopping server
-[04:42:56] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
-[04:42:56] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[04:42:56] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[04:42:56] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
-[04:42:56] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[04:42:56] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[04:42:56] [Server thread/INFO]: Saving players
-[04:42:56] [WebSocketConnectReadThread-85/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[04:42:56] [Server thread/INFO]: Saving worlds
-[04:42:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[04:42:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[04:42:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[04:42:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[04:42:57] [Server thread/INFO]: [ChunkHolderManager] Saved 299 block chunks, 104 entity chunks, 0 poi chunks in world 'world' in 0.33s
-[04:42:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[04:42:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[04:42:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[04:42:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[04:42:57] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[04:42:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[04:42:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[04:42:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[04:42:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[04:42:57] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[04:42:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[04:42:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[04:42:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[04:42:57] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:44:23] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:44:25] [ServerMain/INFO]: Loaded 1290 recipes
+[04:44:26] [ServerMain/INFO]: Loaded 1399 advancements
+[04:44:26] [Server thread/INFO]: Starting minecraft server version 1.21
+[04:44:26] [Server thread/INFO]: Loading properties
+[04:44:26] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[04:44:27] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[04:44:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:44:27] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:44:29] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[04:44:29] [Server thread/INFO]: Default game type: SURVIVAL
+[04:44:29] [Server thread/INFO]: Generating keypair
+[04:44:29] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:44:30] [Server thread/INFO]: Using epoll channel type
+[04:44:30] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[04:44:30] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[04:44:31] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[04:44:34] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[04:44:34] [Server thread/INFO]: [floodgate] Took 3,064ms to boot Floodgate
+[04:44:34] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[04:44:34] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[04:44:37] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[04:44:37] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[04:44:39] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
+[04:44:41] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[04:44:41] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[04:44:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:44:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:44:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:44:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:44:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:44:41] [Server thread/INFO]: Preparing level "world"
+[04:44:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:44:44] [Server thread/INFO]: Time elapsed: 1961 ms
+[04:44:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[04:44:44] [Server thread/INFO]: Time elapsed: 432 ms
+[04:44:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[04:44:45] [Server thread/INFO]: Time elapsed: 226 ms
+[04:44:45] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[04:44:47] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[04:44:47] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[04:44:47] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
+[04:44:48] [Server thread/INFO]: [spark] Starting background profiler...
+[04:44:49] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[04:44:49] [Server thread/INFO]: [Geyser-Spigot] 
+[04:44:49] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b833 (git-master-d0be6d9)
+[04:44:49] [Server thread/INFO]: [Geyser-Spigot] 
+[04:44:49] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[04:45:02] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 4770
+[04:45:02] [Server thread/INFO]: [Geyser-Spigot] Done (13.195s)! Run /geyser help for help!
+[04:45:02] [Server thread/INFO]: Done preparing level "world" (21.140s)
+[04:45:02] [Server thread/INFO]: Running delayed init tasks
+[04:45:02] [Server thread/INFO]: Done (48.896s)! For help, type "help"
+[04:45:02] [Server thread/INFO]: Timings Reset
+[04:45:02] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[04:45:44] [User Authenticator #0/INFO]: UUID of player Taka_la is 0f21aac0-d49b-328e-90fe-0ebada7e3968
+[04:45:46] [Server thread/INFO]: Taka_la joined the game
+[04:45:46] [Server thread/INFO]: Taka_la[/127.226.207.163:50023] logged in with entity id 89 at ([world]437.1650503183614, 68.0, -10.602268770005935)
+[04:45:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2981ms or 59 ticks behind
+[04:46:24] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Lynnn5389
+[04:46:24] [localSession-7-2/INFO]: [Geyser-Spigot] Lynnn5389 (logged in as: Lynnn5389) has connected to the Java server
+[04:46:25] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Lynnn5389 joined (UUID: 00000000-0000-0000-0009-01f89096288b)
+[04:46:25] [Server thread/INFO]: .Lynnn5389 joined the game
+[04:46:25] [Server thread/INFO]: .Lynnn5389[/127.0.0.1:0] logged in with entity id 222 at ([world]441.76147, 69.0, -14.21044)
+[04:47:10] [Async Chat Thread - #0/INFO]: [Not Secure] <Taka_la> ya entendi
+[04:47:26] [Async Chat Thread - #1/INFO]: [Not Secure] <Taka_la> como ejecuto 2 servidores a la vez el de bedrock va lag
+[04:47:32] [Async Chat Thread - #0/INFO]: [Not Secure] <.Lynnn5389> qué
+[04:47:37] [Async Chat Thread - #1/INFO]: [Not Secure] <.Lynnn5389> entiendo
+[04:47:49] [Async Chat Thread - #1/INFO]: [Not Secure] <Taka_la> venga
+[04:47:53] [Async Chat Thread - #1/INFO]: [Not Secure] <Taka_la> foto
+[04:48:09] [Async Chat Thread - #1/INFO]: [Not Secure] <.Lynnn5389> para que?
+[04:48:11] [Async Chat Thread - #0/INFO]: [Not Secure] <Taka_la> aca
+[04:48:25] [Async Chat Thread - #1/INFO]: [Not Secure] <.Lynnn5389> para
+[04:48:33] [Async Chat Thread - #0/INFO]: [Not Secure] <Taka_la> para nada
+[04:48:48] [Async Chat Thread - #0/INFO]: [Not Secure] <.Lynnn5389> ve
+[04:48:53] [Async Chat Thread - #0/INFO]: [Not Secure] <.Lynnn5389> se.va
+[04:49:24] [Async Chat Thread - #0/INFO]: [Not Secure] <Taka_la> ya
+[04:49:30] [Async Chat Thread - #0/INFO]: [Not Secure] <.Lynnn5389> bueno
+[04:49:49] [Async Chat Thread - #0/INFO]: [Not Secure] <Taka_la> podemos jugar en este pero mejor vamos a un mundo aparte
+[04:49:55] [Async Chat Thread - #1/INFO]: [Not Secure] <Taka_la> lo hace usted o yo?
+[04:50:04] [Async Chat Thread - #1/INFO]: [Not Secure] <.Lynnn5389> hagalo usted
+[04:50:08] [Server thread/INFO]: Taka_la lost connection: Disconnected
+[04:50:08] [Server thread/INFO]: Taka_la left the game
+[04:50:13] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Lynnn5389 has disconnected from the Java server because of Bedrock client disconnected
+[04:50:13] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Lynnn5389 disconnected
+[04:50:13] [Server thread/INFO]: .Lynnn5389 lost connection: Disconnected
+[04:50:13] [Server thread/INFO]: .Lynnn5389 left the game
+[04:50:20] [Server thread/INFO]: Stopping the server
+[04:50:20] [Server thread/INFO]: Stopping server
+[04:50:20] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
+[04:50:20] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[04:50:20] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[04:50:20] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[04:50:20] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[04:50:20] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[04:50:20] [Server thread/INFO]: Saving players
+[04:50:20] [WebSocketConnectReadThread-86/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[04:50:20] [Server thread/INFO]: Saving worlds
+[04:50:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:50:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[04:50:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[04:50:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[04:50:22] [Server thread/INFO]: [ChunkHolderManager] Saved 744 block chunks, 761 entity chunks, 0 poi chunks in world 'world' in 1.69s
+[04:50:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[04:50:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[04:50:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[04:50:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[04:50:22] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[04:50:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[04:50:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[04:50:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[04:50:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[04:50:22] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[04:50:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:50:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:50:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:50:22] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
