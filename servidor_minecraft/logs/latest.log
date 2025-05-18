@@ -186,3 +186,50 @@
 [04:40:23] [Server thread/INFO]: .Lynnn5389 joined the game
 [04:40:23] [Server thread/INFO]: .Lynnn5389[/127.0.0.1:0] logged in with entity id 1117 at ([world]416.27905, 72.0, -27.386665)
 [04:40:41] [Async Chat Thread - #1/INFO]: [Not Secure] <.Lynnn5389> saca acada rato
+[04:41:08] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .Lynnn5389 disconnected
+[04:41:08] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Lynnn5389 has disconnected from the Java server because of Bedrock client timed out
+[04:41:09] [Server thread/INFO]: .Lynnn5389 lost connection: Disconnected
+[04:41:09] [Server thread/INFO]: .Lynnn5389 left the game
+[04:41:22] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Lynnn5389
+[04:41:22] [localSession-7-2/INFO]: [Geyser-Spigot] Lynnn5389 (logged in as: Lynnn5389) has connected to the Java server
+[04:41:22] [User Authenticator #2/INFO]: UUID of player Lynnn5389 is 69f08fa3-94da-3e74-97c3-8320ee302e12
+[04:41:22] [Server thread/INFO]: Lynnn5389 joined the game
+[04:41:22] [Server thread/INFO]: Lynnn5389[/127.0.0.1:0] logged in with entity id 1208 at ([world]435.5, 68.0, -9.5)
+[04:41:45] [Async Chat Thread - #3/INFO]: [Not Secure] <Lynnn5389> igual
+[04:41:49] [Async Chat Thread - #2/INFO]: [Not Secure] <Taka_la> eso veo
+[04:41:56] [Async Chat Thread - #3/INFO]: [Not Secure] <Taka_la> dejeme lo reinicio
+[04:42:11] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Lynnn5389 has disconnected from the Java server because of Bedrock client timed out
+[04:42:11] [Server thread/INFO]: Lynnn5389 lost connection: Disconnected
+[04:42:11] [Server thread/INFO]: Lynnn5389 left the game
+[04:42:56] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[04:42:56] [Server thread/INFO]: Taka_la lost connection: Server is restarting
+[04:42:56] [Server thread/INFO]: Taka_la left the game
+[04:42:56] [Server thread/INFO]: Stopping server
+[04:42:56] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
+[04:42:56] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[04:42:56] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[04:42:56] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[04:42:56] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[04:42:56] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[04:42:56] [Server thread/INFO]: Saving players
+[04:42:56] [WebSocketConnectReadThread-85/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[04:42:56] [Server thread/INFO]: Saving worlds
+[04:42:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:42:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[04:42:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[04:42:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[04:42:57] [Server thread/INFO]: [ChunkHolderManager] Saved 299 block chunks, 104 entity chunks, 0 poi chunks in world 'world' in 0.33s
+[04:42:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[04:42:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[04:42:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[04:42:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[04:42:57] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[04:42:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[04:42:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[04:42:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[04:42:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[04:42:57] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[04:42:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:42:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:42:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:42:57] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
