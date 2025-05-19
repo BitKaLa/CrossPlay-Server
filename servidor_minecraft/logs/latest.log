@@ -1,362 +1,353 @@
-[05:03:30] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[05:03:30] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[05:03:30] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[05:03:31] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[05:03:31] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+[16:15:38] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
+[16:15:38] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[16:15:38] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[16:15:42] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[16:15:42] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
  - Geyser-Spigot (2.7.1-SNAPSHOT), ViaVersion (5.3.2), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
-[05:03:37] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[05:03:39] [ServerMain/INFO]: Loaded 1290 recipes
-[05:03:40] [ServerMain/INFO]: Loaded 1399 advancements
-[05:03:40] [Server thread/INFO]: Starting minecraft server version 1.21
-[05:03:40] [Server thread/INFO]: Loading properties
-[05:03:40] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[05:03:41] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[05:03:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[05:03:41] [Server thread/INFO]: Using 4 threads for Netty based IO
-[05:03:42] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[05:03:43] [Server thread/INFO]: Default game type: SURVIVAL
-[05:03:43] [Server thread/INFO]: Generating keypair
-[05:03:43] [Server thread/INFO]: Starting Minecraft server on *:25565
-[05:03:43] [Server thread/INFO]: Using epoll channel type
-[05:03:43] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[05:03:43] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[05:03:45] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[05:03:47] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[05:03:47] [Server thread/INFO]: [floodgate] Took 2,774ms to boot Floodgate
-[05:03:47] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
-[05:03:47] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
-[05:03:49] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[05:03:50] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[05:03:51] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
-[05:03:53] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[05:03:53] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[05:03:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[05:03:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05:03:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[05:03:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05:03:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[05:03:53] [Server thread/INFO]: Preparing level "world"
-[05:03:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[05:03:56] [Server thread/INFO]: Time elapsed: 1677 ms
-[05:03:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[05:03:56] [Server thread/INFO]: Time elapsed: 324 ms
-[05:03:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[05:03:56] [Server thread/INFO]: Time elapsed: 198 ms
-[05:03:56] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[05:03:58] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
-[05:03:58] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[05:03:58] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
-[05:03:59] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser help
-[05:03:59] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser list
-[05:03:59] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser reload
-[05:03:59] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser offhand
-[05:03:59] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser dump
-[05:03:59] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser version
-[05:03:59] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser settings
-[05:03:59] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser statistics
-[05:03:59] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser advancements
-[05:03:59] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser tooltips
-[05:03:59] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser connectiontest
-[05:03:59] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser ping
-[05:03:59] [Server thread/INFO]: [spark] Starting background profiler...
-[05:04:00] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[05:04:00] [Server thread/INFO]: [Geyser-Spigot] 
-[05:04:00] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b833 (git-master-d0be6d9)
-[05:04:00] [Server thread/INFO]: [Geyser-Spigot] 
-[05:04:00] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[05:04:01] [Server thread/INFO]: [Geyser-Spigot] Skipping particle mapping BLOCK_MARKER because no Bedrock equivalent exists.
-[05:04:01] [Server thread/INFO]: [Geyser-Spigot] Skipping particle mapping DUST_PILLAR because no Bedrock equivalent exists.
-[05:04:01] [Server thread/INFO]: [Geyser-Spigot] Skipping particle mapping GUST because no Bedrock equivalent exists.
-[05:04:01] [Server thread/INFO]: [Geyser-Spigot] Skipping particle mapping GUST_EMITTER_LARGE because no Bedrock equivalent exists.
-[05:04:01] [Server thread/INFO]: [Geyser-Spigot] Skipping particle mapping SMALL_GUST because no Bedrock equivalent exists.
-[05:04:01] [Server thread/INFO]: [Geyser-Spigot] Skipping particle mapping TRAIL because no Bedrock equivalent exists.
-[05:04:03] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.geyser.translator.collision.DoorCollision
-[05:04:03] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.geyser.translator.collision.SolidCollision
-[05:04:03] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.geyser.translator.collision.DirtPathCollision
-[05:04:03] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.geyser.translator.collision.TrapdoorCollision
-[05:04:03] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.geyser.translator.collision.GlassPaneAndIronBarsCollision
-[05:04:03] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.geyser.translator.collision.ScaffoldingCollision
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaInitializeBorderTranslator : ClientboundInitializeBorderPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.scoreboard.JavaSetPlayerTeamTranslator : ClientboundSetPlayerTeamPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaUpdateAdvancementsTranslator : ClientboundUpdateAdvancementsPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockCommandRequestTranslator : CommandRequestPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaContainerCloseTranslator : ClientboundContainerClosePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockTextTranslator : TextPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.scoreboard.JavaSetDisplayObjectiveTranslator : ClientboundSetDisplayObjectivePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockBlockPickRequestTranslator : BlockPickRequestPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSetEntityLinkTranslator : ClientboundSetEntityLinkPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaBlockChangedAckTranslator : ClientboundBlockChangedAckPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaRotateHeadTranslator : ClientboundRotateHeadPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaHorseScreenOpenTranslator : ClientboundHorseScreenOpenPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaBlockUpdateTranslator : ClientboundBlockUpdatePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockInventoryTransactionTranslator : InventoryTransactionPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaLevelChunkWithLightTranslator : ClientboundLevelChunkWithLightPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaMoveEntityPosRotTranslator : ClientboundMoveEntityPosRotPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockNetworkStackLatencyTranslator : NetworkStackLatencyPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaUpdateTagsTranslator : ClientboundUpdateTagsPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaSetBorderWarningDelayTranslator : ClientboundSetBorderWarningDelayPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaFinishConfigurationTranslator : ClientboundFinishConfigurationPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaKeepAliveTranslator : ClientboundKeepAlivePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.title.JavaSetSubtitleTextTranslator : ClientboundSetSubtitleTextPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSetPassengersTranslator : ClientboundSetPassengersPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaStoreCookieTranslator : ClientboundStoreCookiePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaCooldownTranslator : ClientboundCooldownPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaPingTranslator : ClientboundPingPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaOpenSignEditorTranslator : ClientboundOpenSignEditorPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaMoveEntityPosTranslator : ClientboundMoveEntityPosPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockRespawnTranslator : RespawnPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaUpdateEnabledFeaturesPacket : ClientboundUpdateEnabledFeaturesPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaUpdateMobEffectTranslator : ClientboundUpdateMobEffectPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.BedrockEntityEventTranslator : EntityEventPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockMobEquipmentTranslator : MobEquipmentPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaTickingStepTranslator : ClientboundTickingStepPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaLevelEventTranslator : ClientboundLevelEventPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaSetPlayerInventoryTranslator : ClientboundSetPlayerInventoryPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaEntityEventTranslator : ClientboundEntityEventPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaStopSoundTranslator : ClientboundStopSoundPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockEntityPickRequestTranslator : EntityPickRequestPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockInteractTranslator : InteractPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaSetExperienceTranslator : ClientboundSetExperiencePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockContainerCloseTranslator : ContainerClosePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaChangeDifficultyTranslator : ClientboundChangeDifficultyPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockRequestChunkRadiusTranslator : RequestChunkRadiusPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.title.JavaClearTitlesTranslator : ClientboundClearTitlesPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaSetBorderLerpSizeTranslator : ClientboundSetBorderLerpSizePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaTransferPacketTranslator : ClientboundTransferPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSoundTranslator : ClientboundSoundPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSetEquipmentTranslator : ClientboundSetEquipmentPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaEntityPositionSyncTranslator : ClientboundEntityPositionSyncPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaBlockEventTranslator : ClientboundBlockEventPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaRecipeBookAddTranslator : ClientboundRecipeBookAddPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockStructureBlockUpdateTranslator : StructureBlockUpdatePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaOpenScreenTranslator : ClientboundOpenScreenPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSetDefaultSpawnPositionTranslator : ClientboundSetDefaultSpawnPositionPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaUpdateRecipesTranslator : ClientboundUpdateRecipesPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerInfoRemoveTranslator : ClientboundPlayerInfoRemovePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaContainerSetContentTranslator : ClientboundContainerSetContentPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaRemoveEntitiesTranslator : ClientboundRemoveEntitiesPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaLevelParticlesTranslator : ClientboundLevelParticlesPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaRemoveMobEffectTranslator : ClientboundRemoveMobEffectPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaTickingStateTranslator : ClientboundTickingStatePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockCommandBlockUpdateTranslator : CommandBlockUpdatePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaSetHeldSlotTranslator : ClientboundSetHeldSlotPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaDamageEventTranslator : ClientboundDamageEventPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaMoveMinecartTranslator : ClientboundMoveMinecartPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaLoginTranslator : ClientboundLoginPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaCustomPayloadTranslator : ClientboundCustomPayloadPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.title.JavaSetTitleTextTranslator : ClientboundSetTitleTextPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.title.JavaSetTitlesAnimationTranslator : ClientboundSetTitlesAnimationPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockSetDifficultyTranslator : SetDifficultyPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSetTimeTranslator : ClientboundSetTimePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockEmoteTranslator : EmotePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockRequestPermissionsPacket : RequestPermissionsPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaCommandsTranslator : ClientboundCommandsPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaBlockEntityDataTranslator : ClientboundBlockEntityDataPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaExplodeTranslator : ClientboundExplodePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockItemStackRequestTranslator : ItemStackRequestPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaSetBorderCenterTranslator : ClientboundSetBorderCenterPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSoundEntityTranslator : ClientboundSoundEntityPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.scoreboard.JavaSetScoreTranslator : ClientboundSetScorePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaAddEntityTranslator : ClientboundAddEntityPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaUpdateAttributesTranslator : ClientboundUpdateAttributesPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaAnimateTranslator : ClientboundAnimatePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerCombatKillTranslator : ClientboundPlayerCombatKillPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSetChunkCacheCenterTranslator : ClientboundSetChunkCacheCenterPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockSetLocalPlayerAsInitializedTranslator : SetLocalPlayerAsInitializedPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaMoveEntityRotTranslator : ClientboundMoveEntityRotPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaSetHealthTranslator : ClientboundSetHealthPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaBossEventTranslator : ClientboundBossEventPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockSetPlayerInventoryOptionsTranslator : SetPlayerInventoryOptionsPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaContainerSetSlotTranslator : ClientboundContainerSetSlotPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.input.BedrockPlayerAuthInputTranslator : PlayerAuthInputPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaStartConfigurationTranslator : ClientboundStartConfigurationPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockShowCreditsTranslator : ShowCreditsPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.scoreboard.JavaSetObjectiveTranslator : ClientboundSetObjectivePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockBlockEntityDataTranslator : BlockEntityDataPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaSetCursorItemTranslator : ClientboundSetCursorItemPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerLookAtTranslator : ClientboundPlayerLookAtPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaMoveVehicleTranslator : ClientboundMoveVehiclePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockLecternUpdateTranslator : LecternUpdatePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaDisguisedChatTranslator : ClientboundDisguisedChatPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaMapItemDataTranslator : ClientboundMapItemDataPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockFilterTextTranslator : FilterTextPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaPlayerChatTranslator : ClientboundPlayerChatPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaRespawnTranslator : ClientboundRespawnPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSetEntityDataTranslator : ClientboundSetEntityDataPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaRegistryDataTranslator : ClientboundRegistryDataPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaAwardStatsTranslator : ClientboundAwardStatsPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaSelectAdvancementsTabTranslator : ClientboundSelectAdvancementsTabPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.world.BedrockLevelSoundEventTranslator : LevelSoundEventPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockEmoteListTranslator : EmoteListPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaOpenBookTranslator : ClientboundOpenBookPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaSelectKnownPacksTranslator : ClientboundSelectKnownPacks
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerRotationTranslator : ClientboundPlayerRotationPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerAbilitiesTranslator : ClientboundPlayerAbilitiesPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockPacketViolationWarningTranslator : PacketViolationWarningPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaSetBorderWarningDistanceTranslator : ClientboundSetBorderWarningDistancePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockPlayerActionTranslator : PlayerActionPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaMerchantOffersTranslator : ClientboundMerchantOffersPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockToggleCrafterSlotRequestTranslator : ToggleCrafterSlotRequestPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockSetPlayerGameTypeTranslator : SetPlayerGameTypePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaBlockDestructionTranslator : ClientboundBlockDestructionPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaSetBorderSizeTranslator : ClientboundSetBorderSizePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockPositionTrackingDBClientRequestTranslator : PositionTrackingDBClientRequestPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockBookEditTranslator : BookEditPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockSetDefaultGameTypeTranslator : SetDefaultGameTypePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaClientboundResourcePackPushPacket : ClientboundResourcePackPushPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaGameEventTranslator : ClientboundGameEventPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaSystemChatTranslator : ClientboundSystemChatPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSetChunkCacheRadiusTranslator : ClientboundSetChunkCacheRadiusPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSectionBlocksUpdateTranslator : ClientboundSectionBlocksUpdatePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaTakeItemEntityTranslator : ClientboundTakeItemEntityPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaCustomQueryTranslator : ClientboundCustomQueryPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockServerSettingsRequestTranslator : ServerSettingsRequestPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerInfoUpdateTranslator : ClientboundPlayerInfoUpdatePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaForgetLevelChunkTranslator : ClientboundForgetLevelChunkPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockAnimateTranslator : AnimatePacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSetEntityMotionTranslator : ClientboundSetEntityMotionPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaCookieRequestTranslator : ClientboundCookieRequestPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerPositionTranslator : ClientboundPlayerPositionPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockStructureTemplateDataRequestTranslator : StructureTemplateDataRequestPacket
-[05:04:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaContainerSetDataTranslator : ClientboundContainerSetDataPacket
-[05:04:13] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaLoginFinishedTranslator : ClientboundLoginFinishedPacket
-[05:04:13] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.title.JavaSetActionBarTextTranslator : ClientboundSetActionBarTextPacket
-[05:04:13] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaChunkBatchFinishedTranslator : ClientboundChunkBatchFinishedPacket
-[05:04:13] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaRecipeBookRemoveTranslator : ClientboundRecipeBookRemovePacket
-[05:04:13] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaTeleportEntityTranslator : ClientboundTeleportEntityPacket
-[05:04:13] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.scoreboard.JavaResetScorePacket : ClientboundResetScorePacket
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:bush as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:firefly_bush as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:short_dry_grass as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:tall_dry_grass as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:wildflowers as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:leaf_litter as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:cactus_flower as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:test_block as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:test_instance_block as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:blue_egg as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:brown_egg as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:spectral_arrow as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:tipped_arrow as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:knowledge_book as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:debug_stick as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:bush as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:firefly_bush as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:short_dry_grass as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:tall_dry_grass as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:wildflowers as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:leaf_litter as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:cactus_flower as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:test_block as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:test_instance_block as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:blue_egg as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:brown_egg as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:spectral_arrow as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:tipped_arrow as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:knowledge_book as an item that needs to be translated.
-[05:04:14] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:debug_stick as an item that needs to be translated.
-[05:04:15] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:spectral_arrow as an item that needs to be translated.
-[05:04:15] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:tipped_arrow as an item that needs to be translated.
-[05:04:15] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:knowledge_book as an item that needs to be translated.
-[05:04:15] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:debug_stick as an item that needs to be translated.
-[05:04:15] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:spectral_arrow as an item that needs to be translated.
-[05:04:15] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:tipped_arrow as an item that needs to be translated.
-[05:04:15] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:knowledge_book as an item that needs to be translated.
-[05:04:15] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:debug_stick as an item that needs to be translated.
-[05:04:15] [Server thread/INFO]: [Geyser-Spigot] Auto-loaded Floodgate key
-[05:04:15] [Server thread/INFO]: [Geyser-Spigot] Auto-setting to Floodgate authentication.
-[05:04:16] [Thread-7/INFO]: [Geyser-Spigot] {"client":{"sha1":"b88808bbb3da8d9f453694b5d8f74a3396f1a533","size":28984409,"url":"https://piston-data.mojang.com/v1/objects/b88808bbb3da8d9f453694b5d8f74a3396f1a533/client.jar"},"client_mappings":{"sha1":"57669731d542f98646772e91a0d68628f9827a5c","size":10670987,"url":"https://piston-data.mojang.com/v1/objects/57669731d542f98646772e91a0d68628f9827a5c/client.txt"},"server":{"sha1":"e6ec2f64e6080b9b5d9b471b291c33cc7f509733","size":57269758,"url":"https://piston-data.mojang.com/v1/objects/e6ec2f64e6080b9b5d9b471b291c33cc7f509733/server.jar"},"server_mappings":{"sha1":"f4812c1d66d0098a94616b19c21829e591d0af3a","size":8027211,"url":"https://piston-data.mojang.com/v1/objects/f4812c1d66d0098a94616b19c21829e591d0af3a/server.txt"}}
-[05:04:16] [Thread-7/INFO]: [Geyser-Spigot] {"sha1":"b88808bbb3da8d9f453694b5d8f74a3396f1a533","size":28984409,"url":"https://piston-data.mojang.com/v1/objects/b88808bbb3da8d9f453694b5d8f74a3396f1a533/client.jar"}
-[05:04:16] [Server thread/INFO]: [Geyser-Spigot] Kernel version: 6.8.0-1027-azure
-[05:04:16] [Server thread/INFO]: [Geyser-Spigot] Listen thread count: 2
-[05:04:16] [Server thread/INFO]: [Geyser-Spigot] EventLoop type: class io.netty.channel.epoll.EpollDatagramChannel
-[05:04:16] [Thread-7/INFO]: [Geyser-Spigot] Downloading and loading locale: en_us
-[05:04:16] [Server thread/INFO]: [Geyser-Spigot] Setting MTU to 1400
-[05:04:16] [Server thread/INFO]: [Geyser-Spigot] Setting RakNet packet limit to 120
-[05:04:16] [Server thread/INFO]: [Geyser-Spigot] Setting RakNet global packet limit to 100000
-[05:04:16] [Server thread/INFO]: [Geyser-Spigot] Setting RakNet send cookie to true
-[05:04:16] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 4770
-[05:04:16] [Server thread/INFO]: [Geyser-Spigot] Loaded Floodgate key!
-[05:04:16] [Server thread/INFO]: [Geyser-Spigot] Done (16.284s)! Run /geyser help for help!
-[05:04:16] [Server thread/INFO]: [Geyser-Spigot] Spigot ping passthrough type: class org.geysermc.geyser.platform.spigot.GeyserPaperPingPassthrough
-[05:04:16] [Server thread/INFO]: [Geyser-Spigot] The handler floodgate-init isn't a ChannelInitializer. THIS ERROR IS SAFE TO IGNORE!
-[05:04:16] [Server thread/WARN]: java.lang.NoSuchFieldException: childHandler
-[05:04:16] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
-[05:04:16] [Server thread/WARN]: 	at io.papermc.reflectionrewriter.runtime.AbstractDefaultRulesReflectionProxy.getDeclaredField(AbstractDefaultRulesReflectionProxy.java:90)
-[05:04:16] [Server thread/WARN]: 	at io.papermc.paper.pluginremap.reflect.PaperReflectionHolder.getDeclaredField(Unknown Source)
-[05:04:16] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.platform.spigot.GeyserSpigotInjector.getChildHandler(GeyserSpigotInjector.java:152)
-[05:04:16] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.platform.spigot.GeyserSpigotInjector.initializeLocalChannel0(GeyserSpigotInjector.java:111)
-[05:04:16] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.network.netty.GeyserInjector.initializeLocalChannel(GeyserInjector.java:64)
-[05:04:16] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.platform.spigot.GeyserSpigotPlugin.onGeyserEnable(GeyserSpigotPlugin.java:265)
-[05:04:16] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.platform.spigot.GeyserSpigotPlugin$1.onServerLoaded(GeyserSpigotPlugin.java:220)
-[05:04:16] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:40)
-[05:04:16] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
-[05:04:16] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
-[05:04:16] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
-[05:04:16] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131)
-[05:04:16] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628)
-[05:04:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:761)
-[05:04:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:516)
-[05:04:16] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329)
-[05:04:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215)
-[05:04:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330)
-[05:04:16] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[05:04:16] [Server thread/INFO]: [Geyser-Spigot] Local injection succeeded!
-[05:04:16] [Server thread/INFO]: [Geyser-Spigot] Unable to find spigot world manager: org.geysermc.geyser.adapters.spigot.craftbukkit.WorldAdapter_craftbukkit
-[05:04:16] [Server thread/INFO]: [Geyser-Spigot] Using paper world adapter for protocol version: 767
-[05:04:17] [Server thread/INFO]: [Geyser-Spigot] Using world manager of type: GeyserSpigotLegacyNativeWorldManager
-[05:04:17] [Server thread/INFO]: Done preparing level "world" (23.131s)
-[05:04:17] [Server thread/INFO]: Running delayed init tasks
-[05:04:17] [Server thread/INFO]: Done (47.807s)! For help, type "help"
-[05:04:17] [Server thread/INFO]: Timings Reset
-[05:04:17] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[05:04:56] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
-[05:05:27] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
-[05:05:46] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
-[05:06:16] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
-[05:06:49] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
-[05:07:37] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
-[05:07:57] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
-[05:08:02] [User Authenticator #0/INFO]: UUID of player Taka_la is 0f21aac0-d49b-328e-90fe-0ebada7e3968
-[05:08:03] [Server thread/INFO]: Taka_la joined the game
-[05:08:04] [Server thread/INFO]: Taka_la[/127.226.207.163:34549] logged in with entity id 104 at ([world]432.0737923745944, 70.0, -29.5862597692887)
-[05:08:46] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
-[05:09:53] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
-[05:10:11] [Server thread/INFO]: Taka_la issued server command: /time set day
-[05:10:11] [Server thread/INFO]: [Taka_la: Set the time to 1000]
-[05:11:20] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
-[05:12:57] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
-[05:13:05] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
-[05:14:21] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
-[05:14:42] [Server thread/INFO]: Taka_la lost connection: Disconnected
-[05:14:42] [Server thread/INFO]: Taka_la left the game
-[05:14:51] [Server thread/INFO]: Stopping the server
-[05:14:51] [Server thread/INFO]: Stopping server
-[05:14:51] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
-[05:14:51] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[05:14:51] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[05:14:51] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
-[05:14:51] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[05:14:51] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[05:14:51] [Server thread/INFO]: Saving players
-[05:14:51] [WebSocketConnectReadThread-85/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[05:14:51] [Server thread/INFO]: Saving worlds
-[05:14:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[05:14:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[05:14:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[05:14:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[05:14:51] [Server thread/INFO]: [ChunkHolderManager] Saved 126 block chunks, 205 entity chunks, 0 poi chunks in world 'world' in 0.24s
-[05:14:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[05:14:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[05:14:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[05:14:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[05:14:51] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[05:14:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[05:14:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[05:14:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[05:14:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[05:14:51] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[05:14:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05:14:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:14:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05:14:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:15:53] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:15:59] [ServerMain/INFO]: Loaded 1290 recipes
+[16:16:00] [ServerMain/INFO]: Loaded 1399 advancements
+[16:16:00] [Server thread/INFO]: Starting minecraft server version 1.21
+[16:16:00] [Server thread/INFO]: Loading properties
+[16:16:00] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[16:16:02] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[16:16:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:16:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:16:04] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[16:16:04] [Server thread/INFO]: Default game type: SURVIVAL
+[16:16:04] [Server thread/INFO]: Generating keypair
+[16:16:04] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:16:05] [Server thread/INFO]: Using epoll channel type
+[16:16:05] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:16:05] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[16:16:08] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[16:16:13] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[16:16:13] [Server thread/INFO]: [floodgate] Took 5,121ms to boot Floodgate
+[16:16:13] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[16:16:13] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[16:16:17] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[16:16:18] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[16:16:20] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
+[16:16:25] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[16:16:25] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[16:16:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:16:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:16:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:16:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:16:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:16:25] [Server thread/INFO]: Preparing level "world"
+[16:16:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:16:31] [Server thread/INFO]: Time elapsed: 3843 ms
+[16:16:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:16:32] [Server thread/INFO]: Time elapsed: 1402 ms
+[16:16:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:16:33] [Server thread/INFO]: Time elapsed: 584 ms
+[16:16:33] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[16:16:36] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[16:16:37] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[16:16:37] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
+[16:16:38] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser help
+[16:16:38] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser list
+[16:16:38] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser reload
+[16:16:38] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser offhand
+[16:16:38] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser dump
+[16:16:38] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser version
+[16:16:38] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser settings
+[16:16:38] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser statistics
+[16:16:39] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser advancements
+[16:16:39] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser tooltips
+[16:16:39] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser connectiontest
+[16:16:39] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser ping
+[16:16:39] [Server thread/INFO]: [spark] Starting background profiler...
+[16:16:41] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[16:16:41] [Server thread/INFO]: [Geyser-Spigot] 
+[16:16:41] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b833 (git-master-d0be6d9)
+[16:16:41] [Server thread/INFO]: [Geyser-Spigot] 
+[16:16:41] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[16:16:43] [Server thread/INFO]: [Geyser-Spigot] Skipping particle mapping BLOCK_MARKER because no Bedrock equivalent exists.
+[16:16:43] [Server thread/INFO]: [Geyser-Spigot] Skipping particle mapping DUST_PILLAR because no Bedrock equivalent exists.
+[16:16:43] [Server thread/INFO]: [Geyser-Spigot] Skipping particle mapping GUST because no Bedrock equivalent exists.
+[16:16:43] [Server thread/INFO]: [Geyser-Spigot] Skipping particle mapping GUST_EMITTER_LARGE because no Bedrock equivalent exists.
+[16:16:43] [Server thread/INFO]: [Geyser-Spigot] Skipping particle mapping SMALL_GUST because no Bedrock equivalent exists.
+[16:16:43] [Server thread/INFO]: [Geyser-Spigot] Skipping particle mapping TRAIL because no Bedrock equivalent exists.
+[16:16:46] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.geyser.translator.collision.DoorCollision
+[16:16:46] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.geyser.translator.collision.SolidCollision
+[16:16:46] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.geyser.translator.collision.ScaffoldingCollision
+[16:16:46] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.geyser.translator.collision.TrapdoorCollision
+[16:16:46] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.geyser.translator.collision.GlassPaneAndIronBarsCollision
+[16:16:46] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.geyser.translator.collision.DirtPathCollision
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaUpdateMobEffectTranslator : ClientboundUpdateMobEffectPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaDamageEventTranslator : ClientboundDamageEventPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaSetPlayerInventoryTranslator : ClientboundSetPlayerInventoryPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaContainerSetContentTranslator : ClientboundContainerSetContentPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaMoveEntityPosRotTranslator : ClientboundMoveEntityPosRotPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaCommandsTranslator : ClientboundCommandsPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaAddEntityTranslator : ClientboundAddEntityPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockShowCreditsTranslator : ShowCreditsPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockNetworkStackLatencyTranslator : NetworkStackLatencyPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.scoreboard.JavaSetScoreTranslator : ClientboundSetScorePacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaSelectKnownPacksTranslator : ClientboundSelectKnownPacks
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.title.JavaSetActionBarTextTranslator : ClientboundSetActionBarTextPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaUpdateRecipesTranslator : ClientboundUpdateRecipesPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaSystemChatTranslator : ClientboundSystemChatPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaExplodeTranslator : ClientboundExplodePacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaForgetLevelChunkTranslator : ClientboundForgetLevelChunkPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaUpdateAttributesTranslator : ClientboundUpdateAttributesPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockPacketViolationWarningTranslator : PacketViolationWarningPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerRotationTranslator : ClientboundPlayerRotationPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaOpenBookTranslator : ClientboundOpenBookPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.BedrockEntityEventTranslator : EntityEventPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockLecternUpdateTranslator : LecternUpdatePacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaCustomPayloadTranslator : ClientboundCustomPayloadPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaTeleportEntityTranslator : ClientboundTeleportEntityPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaContainerSetDataTranslator : ClientboundContainerSetDataPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockEntityPickRequestTranslator : EntityPickRequestPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaRemoveEntitiesTranslator : ClientboundRemoveEntitiesPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSetEntityLinkTranslator : ClientboundSetEntityLinkPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockMobEquipmentTranslator : MobEquipmentPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockItemStackRequestTranslator : ItemStackRequestPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockPositionTrackingDBClientRequestTranslator : PositionTrackingDBClientRequestPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.title.JavaSetTitleTextTranslator : ClientboundSetTitleTextPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaChangeDifficultyTranslator : ClientboundChangeDifficultyPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockRequestPermissionsPacket : RequestPermissionsPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaBlockEntityDataTranslator : ClientboundBlockEntityDataPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaBlockEventTranslator : ClientboundBlockEventPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaMoveMinecartTranslator : ClientboundMoveMinecartPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSetPassengersTranslator : ClientboundSetPassengersPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockTextTranslator : TextPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaBlockUpdateTranslator : ClientboundBlockUpdatePacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaCookieRequestTranslator : ClientboundCookieRequestPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaSetBorderWarningDelayTranslator : ClientboundSetBorderWarningDelayPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockStructureBlockUpdateTranslator : StructureBlockUpdatePacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockEmoteListTranslator : EmoteListPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaRecipeBookAddTranslator : ClientboundRecipeBookAddPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaKeepAliveTranslator : ClientboundKeepAlivePacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaTakeItemEntityTranslator : ClientboundTakeItemEntityPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaOpenSignEditorTranslator : ClientboundOpenSignEditorPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockSetPlayerInventoryOptionsTranslator : SetPlayerInventoryOptionsPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaCustomQueryTranslator : ClientboundCustomQueryPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockInteractTranslator : InteractPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaSetCursorItemTranslator : ClientboundSetCursorItemPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaSetBorderLerpSizeTranslator : ClientboundSetBorderLerpSizePacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaContainerSetSlotTranslator : ClientboundContainerSetSlotPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaRespawnTranslator : ClientboundRespawnPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaLevelParticlesTranslator : ClientboundLevelParticlesPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSectionBlocksUpdateTranslator : ClientboundSectionBlocksUpdatePacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.scoreboard.JavaSetObjectiveTranslator : ClientboundSetObjectivePacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockSetPlayerGameTypeTranslator : SetPlayerGameTypePacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockSetDefaultGameTypeTranslator : SetDefaultGameTypePacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.title.JavaSetTitlesAnimationTranslator : ClientboundSetTitlesAnimationPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockServerSettingsRequestTranslator : ServerSettingsRequestPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerAbilitiesTranslator : ClientboundPlayerAbilitiesPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaEntityEventTranslator : ClientboundEntityEventPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaRecipeBookRemoveTranslator : ClientboundRecipeBookRemovePacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaSelectAdvancementsTabTranslator : ClientboundSelectAdvancementsTabPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerLookAtTranslator : ClientboundPlayerLookAtPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockEmoteTranslator : EmotePacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.input.BedrockPlayerAuthInputTranslator : PlayerAuthInputPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaStopSoundTranslator : ClientboundStopSoundPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerInfoUpdateTranslator : ClientboundPlayerInfoUpdatePacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSetEquipmentTranslator : ClientboundSetEquipmentPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaSetHeldSlotTranslator : ClientboundSetHeldSlotPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSetTimeTranslator : ClientboundSetTimePacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaBlockDestructionTranslator : ClientboundBlockDestructionPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaMapItemDataTranslator : ClientboundMapItemDataPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaTransferPacketTranslator : ClientboundTransferPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaLevelChunkWithLightTranslator : ClientboundLevelChunkWithLightPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaMerchantOffersTranslator : ClientboundMerchantOffersPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockBookEditTranslator : BookEditPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockBlockEntityDataTranslator : BlockEntityDataPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaMoveEntityRotTranslator : ClientboundMoveEntityRotPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaOpenScreenTranslator : ClientboundOpenScreenPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSoundEntityTranslator : ClientboundSoundEntityPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaSetHealthTranslator : ClientboundSetHealthPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaStartConfigurationTranslator : ClientboundStartConfigurationPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.scoreboard.JavaSetDisplayObjectiveTranslator : ClientboundSetDisplayObjectivePacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaSetBorderCenterTranslator : ClientboundSetBorderCenterPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSetDefaultSpawnPositionTranslator : ClientboundSetDefaultSpawnPositionPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockRespawnTranslator : RespawnPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaPlayerChatTranslator : ClientboundPlayerChatPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaAnimateTranslator : ClientboundAnimatePacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaSetBorderSizeTranslator : ClientboundSetBorderSizePacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerInfoRemoveTranslator : ClientboundPlayerInfoRemovePacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerCombatKillTranslator : ClientboundPlayerCombatKillPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaLevelEventTranslator : ClientboundLevelEventPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaUpdateEnabledFeaturesPacket : ClientboundUpdateEnabledFeaturesPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaSetBorderWarningDistanceTranslator : ClientboundSetBorderWarningDistancePacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaUpdateTagsTranslator : ClientboundUpdateTagsPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaSetExperienceTranslator : ClientboundSetExperiencePacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.title.JavaSetSubtitleTextTranslator : ClientboundSetSubtitleTextPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockSetLocalPlayerAsInitializedTranslator : SetLocalPlayerAsInitializedPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockContainerCloseTranslator : ContainerClosePacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaClientboundResourcePackPushPacket : ClientboundResourcePackPushPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSetChunkCacheRadiusTranslator : ClientboundSetChunkCacheRadiusPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSetChunkCacheCenterTranslator : ClientboundSetChunkCacheCenterPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaContainerCloseTranslator : ClientboundContainerClosePacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaUpdateAdvancementsTranslator : ClientboundUpdateAdvancementsPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockFilterTextTranslator : FilterTextPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.scoreboard.JavaSetPlayerTeamTranslator : ClientboundSetPlayerTeamPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSetEntityDataTranslator : ClientboundSetEntityDataPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaBossEventTranslator : ClientboundBossEventPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaHorseScreenOpenTranslator : ClientboundHorseScreenOpenPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaBlockChangedAckTranslator : ClientboundBlockChangedAckPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaDisguisedChatTranslator : ClientboundDisguisedChatPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerPositionTranslator : ClientboundPlayerPositionPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaTickingStateTranslator : ClientboundTickingStatePacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockInventoryTransactionTranslator : InventoryTransactionPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaLoginFinishedTranslator : ClientboundLoginFinishedPacket
+[16:16:54] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockToggleCrafterSlotRequestTranslator : ToggleCrafterSlotRequestPacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaLoginTranslator : ClientboundLoginPacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaInitializeBorderTranslator : ClientboundInitializeBorderPacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockAnimateTranslator : AnimatePacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockPlayerActionTranslator : PlayerActionPacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaRemoveMobEffectTranslator : ClientboundRemoveMobEffectPacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaEntityPositionSyncTranslator : ClientboundEntityPositionSyncPacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockCommandBlockUpdateTranslator : CommandBlockUpdatePacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockStructureTemplateDataRequestTranslator : StructureTemplateDataRequestPacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaAwardStatsTranslator : ClientboundAwardStatsPacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaPingTranslator : ClientboundPingPacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSoundTranslator : ClientboundSoundPacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockSetDifficultyTranslator : SetDifficultyPacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.world.BedrockLevelSoundEventTranslator : LevelSoundEventPacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaMoveEntityPosTranslator : ClientboundMoveEntityPosPacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaChunkBatchFinishedTranslator : ClientboundChunkBatchFinishedPacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaFinishConfigurationTranslator : ClientboundFinishConfigurationPacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaRegistryDataTranslator : ClientboundRegistryDataPacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.title.JavaClearTitlesTranslator : ClientboundClearTitlesPacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaGameEventTranslator : ClientboundGameEventPacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaRotateHeadTranslator : ClientboundRotateHeadPacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaMoveVehicleTranslator : ClientboundMoveVehiclePacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSetEntityMotionTranslator : ClientboundSetEntityMotionPacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaStoreCookieTranslator : ClientboundStoreCookiePacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockRequestChunkRadiusTranslator : RequestChunkRadiusPacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaCooldownTranslator : ClientboundCooldownPacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockCommandRequestTranslator : CommandRequestPacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaTickingStepTranslator : ClientboundTickingStepPacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.scoreboard.JavaResetScorePacket : ClientboundResetScorePacket
+[16:16:55] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockBlockPickRequestTranslator : BlockPickRequestPacket
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:bush as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:firefly_bush as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:short_dry_grass as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:tall_dry_grass as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:wildflowers as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:leaf_litter as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:cactus_flower as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:test_block as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:test_instance_block as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:blue_egg as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:brown_egg as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:spectral_arrow as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:tipped_arrow as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:knowledge_book as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:debug_stick as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:bush as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:firefly_bush as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:short_dry_grass as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:tall_dry_grass as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:wildflowers as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:leaf_litter as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:cactus_flower as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:test_block as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:test_instance_block as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:blue_egg as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:brown_egg as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:spectral_arrow as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:tipped_arrow as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:knowledge_book as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:debug_stick as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:spectral_arrow as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:tipped_arrow as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:knowledge_book as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:debug_stick as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:spectral_arrow as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:tipped_arrow as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:knowledge_book as an item that needs to be translated.
+[16:16:58] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:debug_stick as an item that needs to be translated.
+[16:16:59] [Server thread/INFO]: [Geyser-Spigot] Auto-loaded Floodgate key
+[16:16:59] [Server thread/INFO]: [Geyser-Spigot] Auto-setting to Floodgate authentication.
+[16:16:59] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[16:17:00] [Thread-7/INFO]: [Geyser-Spigot] {"client":{"sha1":"b88808bbb3da8d9f453694b5d8f74a3396f1a533","size":28984409,"url":"https://piston-data.mojang.com/v1/objects/b88808bbb3da8d9f453694b5d8f74a3396f1a533/client.jar"},"client_mappings":{"sha1":"57669731d542f98646772e91a0d68628f9827a5c","size":10670987,"url":"https://piston-data.mojang.com/v1/objects/57669731d542f98646772e91a0d68628f9827a5c/client.txt"},"server":{"sha1":"e6ec2f64e6080b9b5d9b471b291c33cc7f509733","size":57269758,"url":"https://piston-data.mojang.com/v1/objects/e6ec2f64e6080b9b5d9b471b291c33cc7f509733/server.jar"},"server_mappings":{"sha1":"f4812c1d66d0098a94616b19c21829e591d0af3a","size":8027211,"url":"https://piston-data.mojang.com/v1/objects/f4812c1d66d0098a94616b19c21829e591d0af3a/server.txt"}}
+[16:17:00] [Thread-7/INFO]: [Geyser-Spigot] {"sha1":"b88808bbb3da8d9f453694b5d8f74a3396f1a533","size":28984409,"url":"https://piston-data.mojang.com/v1/objects/b88808bbb3da8d9f453694b5d8f74a3396f1a533/client.jar"}
+[16:17:00] [Thread-7/INFO]: [Geyser-Spigot] Downloading and loading locale: en_us
+[16:17:00] [Server thread/INFO]: [Geyser-Spigot] Kernel version: 6.8.0-1027-azure
+[16:17:00] [Server thread/INFO]: [Geyser-Spigot] Listen thread count: 2
+[16:17:00] [Server thread/INFO]: [Geyser-Spigot] EventLoop type: class io.netty.channel.epoll.EpollDatagramChannel
+[16:17:00] [Server thread/INFO]: [Geyser-Spigot] Setting MTU to 1400
+[16:17:00] [Server thread/INFO]: [Geyser-Spigot] Setting RakNet packet limit to 120
+[16:17:00] [Server thread/INFO]: [Geyser-Spigot] Setting RakNet global packet limit to 100000
+[16:17:00] [Server thread/INFO]: [Geyser-Spigot] Setting RakNet send cookie to true
+[16:17:01] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 4770
+[16:17:01] [Server thread/INFO]: [Geyser-Spigot] Loaded Floodgate key!
+[16:17:01] [Server thread/INFO]: [Geyser-Spigot] Done (19.382s)! Run /geyser help for help!
+[16:17:01] [Server thread/INFO]: [Geyser-Spigot] Spigot ping passthrough type: class org.geysermc.geyser.platform.spigot.GeyserPaperPingPassthrough
+[16:17:01] [Server thread/INFO]: [Geyser-Spigot] The handler floodgate-init isn't a ChannelInitializer. THIS ERROR IS SAFE TO IGNORE!
+[16:17:01] [Server thread/WARN]: java.lang.NoSuchFieldException: childHandler
+[16:17:01] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[16:17:01] [Server thread/WARN]: 	at io.papermc.reflectionrewriter.runtime.AbstractDefaultRulesReflectionProxy.getDeclaredField(AbstractDefaultRulesReflectionProxy.java:90)
+[16:17:01] [Server thread/WARN]: 	at io.papermc.paper.pluginremap.reflect.PaperReflectionHolder.getDeclaredField(Unknown Source)
+[16:17:01] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.platform.spigot.GeyserSpigotInjector.getChildHandler(GeyserSpigotInjector.java:152)
+[16:17:01] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.platform.spigot.GeyserSpigotInjector.initializeLocalChannel0(GeyserSpigotInjector.java:111)
+[16:17:01] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.network.netty.GeyserInjector.initializeLocalChannel(GeyserInjector.java:64)
+[16:17:01] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.platform.spigot.GeyserSpigotPlugin.onGeyserEnable(GeyserSpigotPlugin.java:265)
+[16:17:01] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.platform.spigot.GeyserSpigotPlugin$1.onServerLoaded(GeyserSpigotPlugin.java:220)
+[16:17:01] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:40)
+[16:17:01] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+[16:17:01] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[16:17:01] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[16:17:01] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131)
+[16:17:01] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628)
+[16:17:01] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:761)
+[16:17:01] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:516)
+[16:17:01] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329)
+[16:17:01] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215)
+[16:17:01] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330)
+[16:17:01] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[16:17:01] [Server thread/INFO]: [Geyser-Spigot] Local injection succeeded!
+[16:17:01] [Server thread/INFO]: [Geyser-Spigot] Unable to find spigot world manager: org.geysermc.geyser.adapters.spigot.craftbukkit.WorldAdapter_craftbukkit
+[16:17:01] [Server thread/INFO]: [Geyser-Spigot] Using paper world adapter for protocol version: 767
+[16:17:01] [Server thread/INFO]: [Geyser-Spigot] Using world manager of type: GeyserSpigotLegacyNativeWorldManager
+[16:17:01] [Server thread/INFO]: Done preparing level "world" (36.178s)
+[16:17:01] [Server thread/INFO]: Running delayed init tasks
+[16:17:01] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[16:17:01] [Server thread/INFO]: Done (87.687s)! For help, type "help"
+[16:17:01] [Server thread/INFO]: Timings Reset
+[16:17:12] [User Authenticator #0/INFO]: UUID of player Taka_la is 0f21aac0-d49b-328e-90fe-0ebada7e3968
+[16:17:14] [Server thread/INFO]: Taka_la joined the game
+[16:17:14] [Server thread/INFO]: Taka_la[/127.226.207.163:55559] logged in with entity id 108 at ([world]409.21429162657046, 73.0, -15.994318989758813)
+[16:17:16] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 3 ms. Updated 0 players
+[16:17:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2503ms or 50 ticks behind
+[16:17:24] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[16:17:37] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[16:17:38] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[16:17:53] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[16:18:05] [Server thread/INFO]: Taka_la issued server command: /gamemode survival
+[16:18:05] [Server thread/INFO]: [Taka_la: Set own game mode to Survival Mode]
+[16:18:25] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[16:18:35] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[16:18:37] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[16:18:39] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[16:18:53] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[16:19:25] [Server thread/INFO]: Taka_la lost connection: Disconnected
+[16:19:25] [Server thread/INFO]: Taka_la left the game
+[16:19:36] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[16:19:47] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[16:20:42] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[16:21:30] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[16:22:01] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[16:22:03] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[16:22:21] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[16:22:31] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[16:22:55] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[16:23:15] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[16:23:25] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[16:23:49] [User Authenticator #1/INFO]: UUID of player Taka_la is 0f21aac0-d49b-328e-90fe-0ebada7e3968
+[16:23:50] [Server thread/INFO]: Taka_la joined the game
+[16:23:50] [Server thread/INFO]: Taka_la[/127.226.207.163:45989] logged in with entity id 545 at ([world]445.13331296887077, 72.0, -48.38370196430996)
+[16:23:50] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[16:24:01] [Server thread/INFO]: Taka_la issued server command: /gamemode creative
+[16:24:01] [Server thread/INFO]: [Taka_la: Set own game mode to Creative Mode]
+[16:24:07] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[16:24:09] [Server thread/INFO]: Taka_la issued server command: /time set day
+[16:24:09] [Server thread/INFO]: [Taka_la: Set the time to 1000]
+[16:24:11] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[16:25:11] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
