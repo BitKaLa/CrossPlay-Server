@@ -2016,3 +2016,59 @@
 [03:50:19] [Async Chat Thread - #3/INFO]: [Not Secure] <Mim_xml12> >:(
 [03:50:21] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 1 players
 [03:50:23] [Async Chat Thread - #2/INFO]: [Not Secure] <.Dangerous3945> es que aun me sirves
+[03:50:36] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 1 players
+[03:50:44] [Async Chat Thread - #2/INFO]: [Not Secure] <Mim_xml12> aaah me bajo con shit
+[03:50:47] [Async Chat Thread - #2/INFO]: [Not Secure] <Mim_xml12> shift
+[03:50:48] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 1 players
+[03:50:56] [Async Chat Thread - #3/INFO]: [Not Secure] <Mim_xml12> ptm ya se me encendio el ventilador este
+[03:51:07] [Async Chat Thread - #3/INFO]: [Not Secure] <.Dangerous3945> jajaja
+[03:51:11] [Async Chat Thread - #3/INFO]: [Not Secure] <.Dangerous3945> no me sales en discord
+[03:51:32] [Async Chat Thread - #3/INFO]: [Not Secure] <Mim_xml12> mim_xml
+[03:51:37] [Async Chat Thread - #3/INFO]: [Not Secure] <Mim_xml12> asi sale
+[03:51:39] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 1 players
+[03:51:40] [Async Chat Thread - #3/INFO]: [Not Secure] <Mim_xml12> sin mas
+[03:51:41] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 1 players
+[03:51:46] [Async Chat Thread - #3/INFO]: [Not Secure] <.Dangerous3945> ya
+[03:51:47] [Async Chat Thread - #3/INFO]: [Not Secure] <.Dangerous3945> acepta
+[03:52:06] [Async Chat Thread - #3/INFO]: [Not Secure] <Mim_xml12> ush
+[03:52:13] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 1 players
+[03:52:30] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 1 players
+[03:53:02] [Thread-8/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 1 players
+[03:53:26] [Server thread/INFO]: Mim_xml12 lost connection: Disconnected
+[03:53:26] [Server thread/INFO]: Mim_xml12 left the game
+[03:53:28] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Dangerous3945 has disconnected from the Java server because of Bedrock client disconnected
+[03:53:28] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Dangerous3945 disconnected
+[03:53:28] [Server thread/INFO]: .Dangerous3945 lost connection: Disconnected
+[03:53:28] [Server thread/INFO]: .Dangerous3945 left the game
+[03:53:32] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] /127.0.0.1:41726 has pinged you!
+[03:53:37] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] /127.0.0.1:41726 has pinged you!
+[03:53:48] [Server thread/INFO]: Stopping the server
+[03:53:48] [Server thread/INFO]: Stopping server
+[03:53:48] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
+[03:53:48] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[03:53:48] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[03:53:48] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[03:53:48] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[03:53:48] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[03:53:48] [Server thread/INFO]: Saving players
+[03:53:48] [WebSocketConnectReadThread-87/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[03:53:48] [Server thread/INFO]: Saving worlds
+[03:53:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:53:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[03:53:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[03:53:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[03:53:48] [Server thread/INFO]: [ChunkHolderManager] Saved 19 block chunks, 125 entity chunks, 0 poi chunks in world 'world' in 0.12s
+[03:53:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[03:53:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[03:53:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[03:53:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[03:53:48] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[03:53:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[03:53:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[03:53:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[03:53:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[03:53:48] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[03:53:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:53:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:53:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:53:48] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
